@@ -7,7 +7,7 @@
 		"build": "next build",
 		"start": "next start",
 		"lint": "next lint",
-		"prepare": "husky",
+		"prepare": "husky && panda codegen",
 		"biome-lint": "biome lint",
 		"biome-format": "biome format"
 	},
@@ -20,6 +20,7 @@
 	},
 	"devDependencies": {
 		"@biomejs/biome": "1.9.3",
+		"@pandacss/dev": "^0.46.1",
 		"@types/node": "^20",
 		"@types/react": "^18",
 		"@types/react-dom": "^18",
